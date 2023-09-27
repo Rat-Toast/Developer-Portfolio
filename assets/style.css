@@ -1,12 +1,50 @@
 html{
-    background-color: #348aa7;
+    background-color: #e0e2db;
 }
+
+.nav {
+background-color: #243e36;
+
+}
+
 .header {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #5dd39e;
-    color: #bce784;
-    font-size: 25px;
-    justify-content: space-between;
-    display: flex;
+    font-family:'Courier New', Courier, monospace; 
+    background-color: #243e36;
+    color: #7ca982;
+    text-align: left;
+    padding: 35px;
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+
+#image {
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
     padding: 10px;
+    float: left;
+}
+
+#projects {
+
+
+
+}
+
+.paragraph {
+    font-family:'Courier New', Courier, monospace;
+    color: #7ca982;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 100px 0px 100px;
+    font-weight: bold;
+}
+
+.paragraph2 {
+    font-family:'Courier New', Courier, monospace;
+    color: #7ca982;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
 }
