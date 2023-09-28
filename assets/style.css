@@ -11,6 +11,7 @@ html{
 .nav {
     padding: 10px;
     background-image: linear-gradient(to right,#243e36, #467b6b);
+    border-radius: 30px 30px 0px 0px;
 }
 .nav ul {
     float: right;
@@ -64,6 +65,8 @@ label.portfolio {
     font-size: 15px;
     font-weight: lighter;
     background-image: linear-gradient(to right,#243e36, #467b6b);
+    border-radius: 0px 0px 30px 30px;
+    margin-bottom: 85px;
 }
 
 .header a {
@@ -78,19 +81,83 @@ label.portfolio {
     float: left;
 }
 
-.paragraph {
+.intro {
     font-family: var(--font);
     color: var(--Txt);
     font-size: 18px;
     text-align: center;
     margin: 20px 100px 0px 100px;
     font-weight: bold;
+    margin-bottom: 100px;
+
 }
 
-.paragraph2 {
+#image2 {
+    width: 280px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#image3 {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.artbox{
+    background-color: var(--bg);
+    border-radius: 28px 28px 28px 28px;
+}
+
+.projects {
     font-family: var(--font);
     color: var(--Txt);
     font-size: 18px;
     text-align: left;
     font-weight: bold;
+    background-image: linear-gradient(to right,#243e36, #467b6b);
+    border-radius: 25px 25px 0px 0px;
+    padding: 8px;
+    margin: 1px;
 }
+
+#info {
+    font-family: var(--font);
+    color: var(--Txt);
+    font-weight: lighter;
+    background-color: var(--bg);
+    margin: 1px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: var(--bg);
+    color: var(--Txt);
+    font-family: var(--font);
+    background-image: linear-gradient(to right,#243e36, #467b6b);
+    list-style-type: none;
+    
+}
+
+footer ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+@media 
