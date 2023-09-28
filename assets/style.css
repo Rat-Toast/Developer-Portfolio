@@ -2,20 +2,72 @@ html{
     background-color: #e0e2db;
 }
 
+:root {
+    --Txt:#7ca982;
+    --bg: #243e36;
+    --font: 'Times New Roman', Times, serif;
+}
+
 .nav {
-background-color: #243e36;
+    padding: 10px;
+    background-image: linear-gradient(to right,#243e36, #467b6b);
+}
+.nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
 
 }
 
+.nav ul li a {
+    color: var(--Txt);
+    text-transform: uppercase;
+}
+
+label.portfolio {
+    font-family: var(--font);
+    color: var(--Txt);
+    font-weight: bold;
+    font-size: 40px;
+  
+}
+
+.nav a {
+    color: var(--Txt);
+    font-size: 17px;
+    float: right;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+.nav a:hover {
+    background: none;
+    background-color: #376054;
+}
+
+.nav a:active {
+    color: #2c4c43;
+}
+
 .header {
-    font-family:'Courier New', Courier, monospace; 
-    background-color: #243e36;
-    color: #7ca982;
+    font-family: var(--font);
+    background-color: var(--bg);
+    color: var(--Txt);
     text-align: left;
-    padding: 35px;
+    padding: 60px;
     font-size: 15px;
     font-weight: lighter;
-    
+    background-image: linear-gradient(to right,#243e36, #467b6b);
+}
+
+.header a {
+    font-size: 20px;
 }
 
 #image {
@@ -26,15 +78,9 @@ background-color: #243e36;
     float: left;
 }
 
-#projects {
-
-
-
-}
-
 .paragraph {
-    font-family:'Courier New', Courier, monospace;
-    color: #7ca982;
+    font-family: var(--font);
+    color: var(--Txt);
     font-size: 18px;
     text-align: center;
     margin: 20px 100px 0px 100px;
@@ -42,8 +88,8 @@ background-color: #243e36;
 }
 
 .paragraph2 {
-    font-family:'Courier New', Courier, monospace;
-    color: #7ca982;
+    font-family: var(--font);
+    color: var(--Txt);
     font-size: 18px;
     text-align: left;
     font-weight: bold;
